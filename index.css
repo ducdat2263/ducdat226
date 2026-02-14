@@ -126,7 +126,7 @@
   .flap > .envelope > .letter {
    opacity: 1;
     bottom: 120px;
-    transform: scale(1.5);
+    transform: translate() scale(1.5);
     z-index: 99;
     width: 70%;
     max-width: 460px;
@@ -163,4 +163,5 @@
   
   .flap > .heart:hover {
     transform: rotate(0deg);
+
   }
